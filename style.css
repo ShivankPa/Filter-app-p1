@@ -1,0 +1,14 @@
+h3{
+    font-size: 25px !important;
+    color: black !important;
+}
+canvas{
+    border: 4px black solid;
+    animation-name: example;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+@keyframes example {
+    from {box-shadow: 100px 100px 38px green;}
+    to {box-shadow: 100px 100px 50px blue;}
+}
